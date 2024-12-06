@@ -334,6 +334,27 @@ ul, li{
   box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
 }
 
+.cv-container {
+  display: flex;
+  flex-direction: column; /* Alinear elementos verticalmente */
+  align-items: center; /* Centrar el contenido */
+}
+
+.download-btn {
+  margin-bottom: 5px; /* Espacio entre el botón y el texto */
+}
+
+.cv-label {
+  font-size: 16px;
+  color: var(--third-c);
+  font-weight: bold;
+}
+
+.card-text
+{
+  text-align: justify;
+}
+
 /***********************************************************PORTAFOLIO*/
 
 #projectContainer{
